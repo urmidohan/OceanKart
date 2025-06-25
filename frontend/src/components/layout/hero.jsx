@@ -1,10 +1,11 @@
 import {Link} from "react-router-dom";
+import homepage from "../../assets/homepage.jpeg";
 
 const Hero = () => {
     return(
        <section className="relative">
         <img 
-        src="/homepage.jpeg"
+        src={homepage}
         alt="OceanKart"
         className="w-full h-[300px] md:h-[400px] lg:h-[600px] object-cover"
         ></img>
