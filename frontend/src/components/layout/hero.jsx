@@ -4,7 +4,7 @@ const Hero = () => {
     return(
        <section className="relative">
         <img 
-        src="images\homepage.jpeg"
+        src="frontend\images\homepage.jpeg"
         alt="OceanKart"
         className="w-full h-[300px] md:h-[400px] lg:h-[600px] object-cover"
         ></img>
